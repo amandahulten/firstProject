@@ -56,3 +56,31 @@ nav {
   font-size: 2.8rem;
   border: 2px solid black;
 }
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  width: 0 auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 170px;
+  margin: 10px;
+}
+
+.player_pictures {
+  height: 350px;
+  width: 200px;
+}
+
+.player_pictures img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.player_pictures table {
+  width: 150px;
+  height: 100px;
+  background-color: red;
+}

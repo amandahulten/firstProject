@@ -47,7 +47,4 @@ $playerInfo = [
         'Längd' => '188',
         'Spikehöjd' => '309'
     ]
-]
-
-
-
+];
