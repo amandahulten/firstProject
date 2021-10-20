@@ -1,6 +1,6 @@
 <?php
 
-// function getCountdown(int $dateToday): int
+// function : int
 
 
 $todaytime = time();
@@ -10,41 +10,43 @@ $eventdate = mktime(0, 0, 0, 8, 25, 2023);
 $countdown = round(($eventdate - $todaytime) / 86400);
 
 
-$playerInfo = [
+$playersInfo = [
     'Vilma Andersson' => [
-        'Position' => 'Passare',
-        'Ålder' => '21',
-        'Längd' => '184',
-        'Spikehöjd' => '299'
+        'position' => 'Passare',
+        'ålder' => '21',
+        'längd' => '184',
+        'spikehöjd' => '299'
     ],
     'Lilly Topic' => [
-        'Position' => 'Center',
-        'Ålder' => '23',
-        'Längd' => '187',
-        'Spikehöjd' => '315'
+        'position' => 'Center',
+        'ålder' => '23',
+        'längd' => '187',
+        'spikehöjd' => '315'
     ],
     'Alexandra Lazic' => [
-        'Position' => 'Vänsterspiker',
-        'Ålder' => '26',
-        'Längd' => '188',
-        'Spikehöjd' => '321'
+        'position' => 'Vänsterspike',
+        'ålder' => '26',
+        'längd' => '188',
+        'spikehöjd' => '321'
     ],
     'Anna Haak' => [
-        'Position' => 'Vänsterspike',
-        'Ålder' => '24',
-        'Längd' => '179',
-        'Spikehöjd' => '320'
+        'position' => 'Vänsterspike',
+        'ålder' => '24',
+        'längd' => '179',
+        'spikehöjd' => '320'
     ],
-    'Isabella Haak' => [
-        'Position' => 'Högerspiker',
-        'Ålder' => '22',
-        'Längd' => '195',
-        'Spikehöjd' => '336'
+    'Isabelle Haak' => [
+        'position' => 'Högerspike',
+        'ålder' => '22',
+        'längd' => '195',
+        'spikehöjd' => '336'
     ],
     'Linda Andersson' => [
-        'Position' => 'Center',
-        'Ålder' => '23',
-        'Längd' => '188',
-        'Spikehöjd' => '309'
+        'position' => 'Center',
+        'ålder' => '23',
+        'längd' => '188',
+        'spikehöjd' => '309'
     ]
 ];
+
+// echo $playerInfo['Isabelle Haak']['position'];

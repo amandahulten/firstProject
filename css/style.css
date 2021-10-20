@@ -4,6 +4,7 @@
 
 body {
   background-color: black;
+  color: white;
 }
 
 nav {
@@ -58,13 +59,12 @@ nav {
 }
 
 .wrapper {
+  height: 100vh;
   display: grid;
-  justify-content: center;
-  width: 0 auto;
+  justify-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  gap: 170px;
-  margin: 10px;
+  gap: 180px;
 }
 
 .player_pictures {
@@ -80,7 +80,31 @@ nav {
 }
 
 .player_pictures table {
-  width: 150px;
-  height: 100px;
-  background-color: red;
+  width: 100%;
+  height: 50px;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px white;
+}
+
+.player_pictures th,
+.player_pictures td {
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+}
+
+.player_pictures th {
+  text-align: left;
+}
+
+.player_pictures td {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
 }

@@ -15,9 +15,9 @@ $title = 'Homepage';
 
 <main>
     <div class="days_generator">
-        <div class="box top">ONLY</div>
-        <div class="box center"><?php echo "$countdown days"; ?></div>
-        <div class="box bottom">TO VOLLEYBALL-EM</div>
+        <div class="box top">BARA</div>
+        <div class="box center"><?php echo "$countdown dagar"; ?></div>
+        <div class="box bottom">TILL VOLLEYBALL-EM</div>
     </div>
     <div>
         <img src="images/volleyball.png" alt="volleyball">
