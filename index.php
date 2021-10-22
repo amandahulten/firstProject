@@ -9,7 +9,7 @@ $title = 'Homepage';
 
 <header>
     <nav>
-        <a href="/about.php" class="players">Players</a>
+        <a href="/about.php" class="players_link">Players</a>
     </nav>
 </header>
 
