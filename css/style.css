@@ -8,14 +8,79 @@ body {
   color: white;
 }
 
-nav {
+.days_generator {
   display: flex;
-  justify-content: end;
-  align-items: flex-start;
-  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-direction: column;
+  height: 300px;
 }
 
-.players_link {
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: 1s;
+}
+
+.box.bottom {
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  color: white;
+}
+
+.box.center {
+  background-color: aquamarine;
+  width: 55%;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 2.8rem;
+  border: 2px solid black;
+  color: black;
+}
+
+.box.center:hover {
+  transform: scale(1.5);
+}
+
+.volleyball_image1 {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.volleyball_image2 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+.navigation,
+.highlights,
+.full_match {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.full_match {
+  padding-bottom: 30px;
+}
+
+.navigation,
+.highlights {
+  margin-bottom: 30px;
+}
+
+.players_link,
+.highlights_link,
+.full_match_link {
   width: 100px;
   height: 40px;
   background-color: aquamarine;
@@ -27,38 +92,25 @@ nav {
   color: black;
 }
 
-.days_generator {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-}
-
-.box.top,
-.box.bottom {
-  width: 100%;
-  height: 100px;
-  font-size: 2rem;
-  color: white;
-}
-
-.box.center {
+.highlights_link,
+.full_match_link {
+  width: 200px;
+  height: 40px;
   background-color: aquamarine;
-  width: 80%;
-  height: 100px;
   border-radius: 10px;
-  font-size: 2.8rem;
-  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
+
+.bottom_section,
+.bottom_section h2 {
+  background-color: white;
+  color: black;
+}
+
 .players_wrapper {
   display: flex;
   justify-content: center;
@@ -83,8 +135,8 @@ nav {
   box-shadow: 0 0 0 1px white;
   text-align: center;
   background-color: rgb(91, 126, 93);
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .main table th,
@@ -100,11 +152,26 @@ h2 {
   text-align: center;
 }
 
-.about_header h1 {
+.about_header {
+  display: flex;
+  flex-direction: row;
   margin-top: 20px;
+}
+
+.about_header.about_svg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about_header.about_h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 svg {
   width: 100px;
   height: 50px;
+  color: white;
 }
