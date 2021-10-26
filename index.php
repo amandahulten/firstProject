@@ -15,18 +15,24 @@ $title = 'Homepage';
 </header> -->
 
 <main>
-    <div class="volleyball_image1">
-        <img src="images/volleyball-right.png" alt="volleyball" width="80px" heigth="80px">
-    </div>
-    <div class="volleyball_image2">
-        <img src="images/volleyball-left.png" alt="volleyball" width="80px" heigth="80px">
-    </div>
-    <div class=" days_generator">
-        <div class="box center"><?php echo "$countdown dagar"; ?></div>
-        <div class="box bottom">TILL VOLLEYBALL-EM</div>
+    <div class="top_section">
+        <div class="volleyball_image1">
+            <img src="images/volleyball-right.png" alt="volleyball" width="80px" heigth="80px">
+        </div>
+        <div class="volleyball_image2">
+            <img src="images/volleyball-left.png" alt="volleyball" width="80px" heigth="80px">
+        </div>
+        <div class=" days_generator">
+            <h1 class="box top"> Dagar till Volleyboll-EM:</h1>
+            <div class="box center"><?php getGenerator(); ?></div>
+        </div>
+        <div class="random_quotes">
+            <h2>Quote från volleybollproffs:</h2>
+            <div class="quotes"><?php echo getRandomQuote(); ?></div>
+        </div>
     </div>
     <div class="bottom_section">
-        <div class="navigation">
+        <div class="navigation" role="navigation">
             <a href="/about.php" class="players_link">Spelare</a>
         </div>
         <div class="highlights">
