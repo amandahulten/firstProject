@@ -38,7 +38,7 @@ $title = 'About';
                         <td><?php echo $details['position']; ?></td>
                         <td><?php echo $details['ålder']; ?></td>
                         <td><?php echo $details['längd']; ?></td>
-                        <td><?php echo $details['spikehöjd']; ?></td>
+                        <td><?php echo $details['spikehöjd'] . ' cm'; ?></td>
                     </tr>
                 </table>
             <?php endforeach ?>

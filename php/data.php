@@ -22,7 +22,6 @@ $playersInfo = [
         'ålder' => 21,
         'längd' => 184,
         'spikehöjd' => 299,
-        'hemmaklubb' => 'Schweiz'
     ],
     'Lilly Topic' => [
         'img' => '../images/lilly-topic 1.png',
@@ -30,7 +29,6 @@ $playersInfo = [
         'ålder' => 23,
         'längd' => 187,
         'spikehöjd' => 315,
-        'hemmaklubb' => 'Tyskland'
     ],
     'Alexandra Lazic' => [
         'img' => '../images/alexandra-lazic 1.png',
@@ -38,7 +36,6 @@ $playersInfo = [
         'ålder' => 26,
         'längd' => 188,
         'spikehöjd' => 321,
-        'hemmaklubb' => 'Polen'
     ],
     'Anna Haak' => [
         'img' => '../images/anna-haak 1.png',
@@ -46,7 +43,6 @@ $playersInfo = [
         'ålder' => 24,
         'längd' => 179,
         'spikehöjd' => 320,
-        'hemmaklubb' => 'Frankrike'
     ],
     'Isabelle Haak' => [
         'img' => '../images/isabelle-haak 1.png',
@@ -54,7 +50,6 @@ $playersInfo = [
         'ålder' => 22,
         'längd' => 195,
         'spikehöjd' => 336,
-        'hemmaklubb' => 'Turkiet'
     ],
     'Sofie Sjöberg' => [
         'img' => '../images/sofie-sjoberg 1.png',
@@ -62,6 +57,5 @@ $playersInfo = [
         'ålder' => 28,
         'längd' => 172,
         'spikehöjd' => 290,
-        'hemmaklubb' => 'Sverige'
     ]
 ];

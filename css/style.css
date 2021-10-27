@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: rgba(213, 207, 221, 0.876);
+  background-color: rgba(237, 232, 243, 0.938);
 }
 
 h1,
@@ -42,7 +42,9 @@ table td {
 .full_match,
 .random_quotes,
 .highlights,
-.full_match {
+.full_match,
+.video_rules,
+.video_tips {
   margin: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -53,7 +55,6 @@ table td {
 }
 
 .days_generator {
-  background-color: var(--background-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,13 +81,13 @@ table td {
 .box.center {
   background-color: var(--decorating-color);
   width: 50%;
-  height: 100px;
+  height: 75px;
   border-radius: 10px;
   font-size: 2.8rem;
 }
 
 .box.center:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .volleyball_image1 {
@@ -101,34 +102,32 @@ table td {
   left: 25px;
 }
 
+.volleyball_image1 img,
+.volleyball_image2 img {
+  height: 80px;
+  width: 80px;
+}
+
 .random_quotes {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: var(--background-color);
-  color: white;
 }
 
 .quotes {
-  margin-top: 10px;
   padding: 10px;
 }
 
 .navigation,
 .highlights,
-.full_match {
+.full_match,
+.video_rules,
+.video_tips {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 30px;
   gap: 20px;
-}
-
-.full_match {
-  padding-bottom: 30px;
 }
 
 .navigation,
@@ -138,9 +137,6 @@ table td {
 
 .navigation {
   background-color: var(--decorating-color);
-  border-radius: 10px;
-  margin-top: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .players_link,
@@ -177,6 +173,18 @@ table td {
   width: 220px;
   height: 40px;
   color: white;
+}
+
+.video_rules h2,
+.video_tips h2 {
+  font-size: 1.1rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--decorating-color);
+  border-radius: 10px;
 }
 
 /* ABOUT */
@@ -236,12 +244,6 @@ table td {
   border-right: 0;
 }
 
-.about_header {
-  display: flex;
-  flex-direction: row;
-  padding-top: 20px;
-}
-
 .about_svg {
   position: absolute;
   top: 30px;
@@ -250,7 +252,6 @@ table td {
 .about_h1 {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .about_h1 h1 {
@@ -261,4 +262,77 @@ svg {
   width: 100px;
   height: 50px;
   color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .box.top {
+    font-size: 2.7rem;
+  }
+
+  .volleyball_image1 {
+    top: 130px;
+    right: 55px;
+  }
+
+  .volleyball_image2 {
+    top: 130px;
+    left: 55px;
+  }
+
+  .volleyball_image1 img,
+  .volleyball_image2 img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .bottom_section {
+    display: flex;
+  }
+  .highlights,
+  .full_match {
+    flex: 50%;
+  }
+  .video_rules,
+  .video_tips {
+    height: 400px;
+  }
+
+  .video_rules h2,
+  .video_tips h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .volleyball_image1 {
+    top: 100px;
+    right: 55px;
+  }
+
+  .volleyball_image2 {
+    top: 100px;
+    left: 55px;
+  }
+
+  .volleyball_image1 img,
+  .volleyball_image2 img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .top_section {
+    display: flex;
+  }
+
+  .random_quotes,
+  .navigation {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+  }
+
+  .video_rules,
+  .video_tips {
+    height: 600px;
+  }
 }
