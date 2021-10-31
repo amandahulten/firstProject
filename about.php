@@ -21,13 +21,14 @@ $title = 'About';
         </div>
     </header>
 
-    <main class="main_about">
-        <div class="players_wrapper">
-            <?php foreach ($playersInfo as $name => $details) : ?>
-                <table>
-                    <img src="<?php echo $details['img'] ?>" alt="">
-                    <h2><?php echo $name; ?></h2>
 
+    <div class="players_wrapper">
+
+        <?php foreach ($playersInfo as $name => $details) : ?>
+            <div class="single_player">
+                <img src="<?php echo $details['img'] ?>" alt="<?php echo $name ?> i sin volleyboll-landslagsklädsel">
+                <h2><?php echo $name; ?></h2>
+                <table>
                     <tr>
                         <th>Position</th>
                         <th>Ålder</th>
@@ -36,14 +37,16 @@ $title = 'About';
                     </tr>
                     <tr>
                         <td><?php echo $details['position']; ?></td>
-                        <td><?php echo $details['ålder']; ?></td>
-                        <td><?php echo $details['längd']; ?></td>
-                        <td><?php echo $details['spikehöjd'] . ' cm'; ?></td>
+                        <td><?php echo $details['age']; ?></td>
+                        <td><?php echo $details['length']; ?></td>
+                        <td><?php echo $details['spikeheight'] . ' cm'; ?></td>
                     </tr>
                 </table>
-            <?php endforeach ?>
-        </div>
-    </main>
+            </div>
+        <?php endforeach ?>
+
+    </div>
+
 </div>
 
 

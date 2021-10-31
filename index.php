@@ -11,22 +11,25 @@ $title = 'Homepage';
 <main>
 
     <div class="volleyball_image1">
-        <img src="images/volleyball-right.png" alt="volleyball">
+        <img src="images/volleyball-right.png" alt="Gul, rosa och blå volleyboll som studsar vid omladdning av hemsidan">
     </div>
 
     <div class="volleyball_image2">
-        <img src="images/volleyball-left.png" alt="volleyball">
+        <img src="images/volleyball-left.png" alt="Gul, rosa och blå volleyboll som studsar vid omladdnings av sidan">
     </div>
 
     <div class=" days_generator">
         <h1 class="box top"> Dagar till Volleyboll-EM:</h1>
-        <div class="box center"><?php getGenerator(); ?></div>
+        <div class="box center"><?php echo countdown(); ?></div>
     </div>
+
 
     <div class="top_section">
         <div class="random_quotes">
             <h2>Quote från volleybollproffs:</h2>
             <div class="quotes"><?php echo getRandomQuote(); ?></div>
+            <button onclick="confirmation()">Tryck här!</button>
+            <p id="output"></p>
         </div>
 
         <div class="navigation" role="navigation">
@@ -50,14 +53,39 @@ $title = 'Homepage';
         </div>
     </div>
 
-    <div class="video_rules">
-        <h2>Vill du lära dig volleybollreglerna? <br />Kolla video nedan:</h2>
-        <iframe src="https://www.youtube.com/embed/9g7nYQv-kPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="videos">
+        <div class="video_rules">
+            <h2>Vill du lära dig volleybollreglerna? <br />Kolla videon nedan:</h2>
+            <iframe src="https://www.youtube.com/embed/9g7nYQv-kPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video_tips">
+            <h2>Vill du bli en volleybollspelare? <br />Kolla videon nedan för bra tips:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/puxDrjFI0oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="video_tips">
-        <h2>Vill du bli en volleybollspelare? <br />Kolla video nedan för bra tips:</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ep7Hb15stPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <script>
+        function confirmation() {
+            var txt = "Tråkmåns...";
+            var question = confirm("Är du säker på att du vill gå vidare?");
+            if (question === true) {
+                isExited();
+            } else {
+                txt;
+                document.getElementById("output").innerHTML = txt;
+            }
+        }
+
+        function isExited() {
+            var question = prompt("Är du taggad inför Volleyboll-EM?", "JAA!!");
+            if (question === "JAA!!") {
+                document.getElementById("output").innerHTML =
+                    "Tjohoo, då har du kommit rätt!";
+            } else {
+                document.getElementById("output").innerHTML =
+                    "Äh, ryck upp dig!!";
+            }
+        }
+    </script>
 </main>
 
 

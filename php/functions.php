@@ -14,79 +14,18 @@ function getRandomQuote(): string
         '"Too many people get in a position of authority and aren\'t willing to get down on the floor and belly laugh with five- and six-year-olds." -- Arnie Ball',
         '"A great defensive play is worth about five points in emotion." -- Caren Kemner',
         '"It\'s not how tall you are, it is how good you are." -- Marv Dunphy',
-
-
     ];
 
     return $quotes[rand(0, count($quotes) - 1)];
 }
 
-// function careerabroad()
-// {
-//     $playersInfo = [
-//         'Vilma Andersson' => [
-//             'img' => '../images/vilma-andersson 1.png',
-//             'position' => 'Passare',
-//             'ålder' => 21,
-//             'längd' => 184,
-//             'spikehöjd' => 299,
-//             'hemmaklubb' => 'Schweiz'
-//         ],
-//         'Lilly Topic' => [
-//             'img' => '../images/lilly-topic 1.png',
-//             'position' => 'Center',
-//             'ålder' => 23,
-//             'längd' => 187,
-//             'spikehöjd' => 315,
-//             'hemmaklubb' => 'Tyskland'
-//         ],
-//         'Alexandra Lazic' => [
-//             'img' => '../images/alexandra-lazic 1.png',
-//             'position' => 'Vänsterspike',
-//             'ålder' => 26,
-//             'längd' => 188,
-//             'spikehöjd' => 321,
-//             'hemmaklubb' => 'Polen'
-//         ],
-//         'Anna Haak' => [
-//             'img' => '../images/anna-haak 1.png',
-//             'position' => 'Vänsterspike',
-//             'ålder' => 24,
-//             'längd' => 179,
-//             'spikehöjd' => 320,
-//             'hemmaklubb' => 'Frankrike'
-//         ],
-//         'Isabelle Haak' => [
-//             'img' => '../images/isabelle-haak 1.png',
-//             'position' => 'Högerspike',
-//             'ålder' => 22,
-//             'längd' => 195,
-//             'spikehöjd' => 336,
-//             'hemmaklubb' => 'Turkiet'
-//         ],
-//         'Sofie Sjöberg' => [
-//             'img' => '../images/sofie-sjoberg 1.png',
-//             'position' => 'Libero',
-//             'ålder' => 28,
-//             'längd' => 172,
-//             'spikehöjd' => 290,
-//             'hemmaklubb' => 'Sverige'
-//         ]
-//     ];
-//     foreach($playersInfo as $playerInfo) {
-//         if($playerInfo['hemmaklubb']  'Sverige') {
 
-//         }
-//     }
-// }
 
-function getGenerator()
+function countdown(): float
 {
     $volleyballEM = strtotime("2023-08-25");
     $secondsLeft = $volleyballEM - time();
     $days = floor($secondsLeft / (60 * 60 * 24));
 
-    echo $days; //Hur gör jag med return?
+    return $days;
 }
-
-// getGenerator();
