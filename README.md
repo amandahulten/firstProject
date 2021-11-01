@@ -1,4 +1,4 @@
-https://giphy.com/gifs/blackhillsstate-bhsu-black-hills-state-university-athletics-ZauHdkNVXUXeaPpCnQ
+![A volleyball-team doing a center-spike and chearing.](https://giphy.com/gifs/blackhillsstate-bhsu-black-hills-state-university-athletics-ZauHdkNVXUXeaPpCnQ.gif)
 
 # Project Title
 
