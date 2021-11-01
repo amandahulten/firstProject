@@ -1,6 +1,6 @@
 ![A volleyball-team doing a center-spike and chearing.](https://media.giphy.com/media/ZauHdkNVXUXeaPpCnQ/giphy.gif)
 
-# Uppladdning inför volleyboll-EM 2023
+# Volleyboll-EM 2023
 
 Did you know that Sweden's women's national team in volleyball qualified for EM this year for the first time in 38 years? Probably not. This website is therefore made with the purpose to get more people interested in female volleyball, so many more are prepared and exited for the next Volleyball-EM in 2023 (..since they made it all the way to quarter-finals(?!) this year, they are already qualified for EM 2023!!). The website offers you a countdown to EM 2023, a quick overview over the players and videos to learn more about volleyball, enjoy! 
 
