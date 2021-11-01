@@ -1,4 +1,4 @@
-INSERT MANDATORY GIF
+https://giphy.com/gifs/blackhillsstate-bhsu-black-hills-state-university-athletics-ZauHdkNVXUXeaPpCnQ
 
 # Project Title
 
@@ -6,7 +6,10 @@ Text about the project and why it exists. This would also be a great place to li
 
 # Installation
 
-Add the installation instructions.
+1. Download PHP through Homebrew using the command "brew install php".
+2. Clone repo from GitHub.
+3. Run PHP localhost from terminal (ex. PHP -S localhost:8000) from root folder.
+4. You are good to go!
 
 # Code Review
 
