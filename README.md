@@ -1,6 +1,7 @@
-![A volleyball-team doing a center-spike and chearing.](https://giphy.com/gifs/blackhillsstate-bhsu-black-hills-state-university-athletics-ZauHdkNVXUXeaPpCnQ.gif)
+![A volleyball-team doing a center-spike and chearing.](https://media.giphy.com/media/ZauHdkNVXUXeaPpCnQ/giphy.gif)
 
-# Project Title
+Sveriges damlandslag i volleyboll
+
 
 Text about the project and why it exists. This would also be a great place to link the project on One.com.
 
@@ -26,4 +27,4 @@ Code review written by [Jane Doh](https://github.com/username).
 Tested by the following people:
 
 1. Jane Doe
-2. John Doe
+
