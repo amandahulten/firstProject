@@ -5,7 +5,7 @@
 Did you know that Sweden's women's national team in volleyball qualified for EM this year for the first time in 38 years? Probably not. This website is therefore made with the purpose to get more people interested in female volleyball, so many more are prepared and exited for the next Volleyball-EM in 2023 (..since they made it all the way to quarter-finals(?!) this year, they are already qualified for EM 2023!!). The website offers you a countdown to EM 2023, a quick overview over the players and videos to learn more about volleyball, enjoy! 
 
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+Visit my website here: http://amandasportal.se/firstProject/index.php
 
 # Installation
 
@@ -28,5 +28,6 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. 
+1. Alice Nyberg
+2. Agnes Skönvall
 
