@@ -42,12 +42,12 @@
 
 @font-face {
   font-family: 'Extra-light';
-  src: url(/fonts/Poppins-ExtraLight.ttf);
+  src: url(../fonts/Poppins-ExtraLight.ttf);
 }
 
 @font-face {
   font-family: 'Light';
-  src: url(/fonts/Poppins-Light.ttf);
+  src: url(../fonts/Poppins-Light.ttf);
 }
 
 body {
