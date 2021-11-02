@@ -18,13 +18,13 @@ $title = 'Homepage';
         <img src="images/volleyball-left.png" alt="Gul, rosa och blå volleyboll som studsar vid omladdnings av sidan">
     </div>
 
-    <div class=" days_generator">
+    <div class="days_generator">
         <h1 class="box top"> Dagar till Volleyboll-EM:</h1>
         <div class="box center"><?php echo countdown(); ?></div>
     </div>
 
 
-    <div class="top_section">
+    <div class="middle_section">
         <div class="random_quotes">
             <h2>Quote från volleybollproffs:</h2>
             <div class="quotes"><?php echo getRandomQuote(); ?></div>
@@ -33,7 +33,7 @@ $title = 'Homepage';
         </div>
 
         <div class="navigation" role="navigation">
-            <a href="/about.php" class="players_link">Spelarinformation</a>
+            <a href="about.php" class="players_link">Spelarinformation</a>
         </div>
     </div>
 

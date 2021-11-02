@@ -42,12 +42,12 @@
 
 @font-face {
   font-family: 'Extra-light';
-  src: url(/fonts/Poppins-ExtraLight.ttf);
+  src: url(./fonts/Poppins-ExtraLight.ttf);
 }
 
 @font-face {
   font-family: 'Light';
-  src: url(/fonts/Poppins-Light.ttf);
+  src: url(./fonts/Poppins-Light.ttf);
 }
 
 body {
@@ -304,7 +304,7 @@ footer {
     height: 160px;
   }
 
-  .top_section {
+  .middle_section {
     display: flex;
   }
 
